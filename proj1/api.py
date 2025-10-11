@@ -13,4 +13,4 @@ async def create_upload_file(file: UploadFile):
 
     contents = await file.read()
     return {"filename": file.filename,
-            "filesize": len(contentss)}
+            "filesize": len(contents)}
