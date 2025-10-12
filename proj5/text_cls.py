@@ -12,4 +12,4 @@ text = "This was a masterpiece. Not completely faithful to the books, but enthra
 result = classifier(text)
 
 # STEP 5 : post processing
-classifier(tex)
+classifier(text)
