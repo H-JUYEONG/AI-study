@@ -29,7 +29,7 @@ def summarize_long_text(
         input_tensor = torch.tensor([chunk])
         summary_ids = model.generate(
             input_tensor,
-            num_beams=45,
+            num_beams=4,
             max_length=summary_max_length,
             eos_token_id=tokenizer.eos_token_id,
         )
