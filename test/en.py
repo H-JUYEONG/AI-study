@@ -87,7 +87,7 @@ def main():
     """
 
     print("원본 텍스트:")
-    print(english_text.next())
+    print(english_text.strip())
     print("\n한국어 요약:")
     print(summarizer.summarize(english_text))
 
