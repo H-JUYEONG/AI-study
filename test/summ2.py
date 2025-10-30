@@ -49,7 +49,7 @@ def recursive_summarize(text, tokenizer, model, chunk_max_length=1024, summary_m
     input_ids = [tokenizer.bos_token_id] + tokens + [tokenizer.eos_token_id]
     summary_ids = model.generate(
         torch.tensor([input_ids]),
-        num_beams=4,
+        num_beams=5,
         max_length=summary_max_length,
         eos_token_id=tokenizer.eos_token_id,
     )
