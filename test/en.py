@@ -46,7 +46,7 @@ class EnglishToKoreanSummarizer:
                 max_length=150,
                 min_length=30,
                 length_penalty=1.0,
-                num_beams=5,
+                num_beams=6,
                 no_repeat_ngram_size=3,
                 early_stopping=True,
             )
