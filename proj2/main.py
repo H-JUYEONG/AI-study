@@ -15,8 +15,8 @@ img2 = cv2.imread("ChaEunWoo2.jpg")
 # STEP 4 : inference
 faces1 = app.get(img1)
 faces2 = app.get(img2)
-assert len(faces1)==1
-assert len(faces2)==1
+assert len(faces1)==2
+assert len(faces2)==2
 
 # STEP 5 : post processing
 # STEP 5-1 : Save result image
