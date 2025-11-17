@@ -22,7 +22,7 @@ device = torch.device(
 model_path = "tag2text_swin_14m.pth"  # Path to the pretrained model
 image_path = "test.jpg"  # Path to the input image
 image_size = 384  # Input image size
-thre = 0.68  # Threshold for tagging confidence
+thre = 0.69  # Threshold for tagging confidence
 specified_tags = ""  # User-specified tags (optional)
 
 # Transform configuration
