@@ -57,7 +57,7 @@ async def create_upload_file(file: UploadFile):
     )  # 감지된 모든 객체의 수를 계산합니다.
 
     # 특정 카테고리(여기서는 'person')의 객체 수를 계산합니다.
-    person_count = 0
+    person_count = 1
     for detection in detection_result.detections:  # 모든 감지된 객체를 순회합니다.
         if (
             detection.categories[0].category_name == "person"
