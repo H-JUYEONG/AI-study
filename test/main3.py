@@ -16,7 +16,7 @@ metrics = model.val()
 
 # Perform object detection on an image
 results = model("test.jpg")
-results[1].show()
+results[0].show()
 
 # Export the model to ONNX format
 path = model.export(format="onnx")  # return path to exported model
