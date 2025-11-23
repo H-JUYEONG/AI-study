@@ -83,7 +83,7 @@ class MultilingualSummarizer:
         ).to(self.device)
         summary_ids = self.en_model.generate(
             inputs["input_ids"],
-            max_length=100,
+            max_length=128,
             min_length=30,
             length_penalty=2.0,
             num_beams=5,
