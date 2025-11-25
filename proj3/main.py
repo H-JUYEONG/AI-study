@@ -8,7 +8,7 @@ reader = easyocr.Reader(['ko','en']) # this needs to run only once to load the m
 data = 'korean.png'
 
 # STEP 4 : inference
-result = reader.readtext(data, detail=1)
+result = reader.readtext(data, detail=0)
 print(result)
 
 # STEP 5: post processing
