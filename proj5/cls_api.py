@@ -18,4 +18,4 @@ async def inference(text: Annotated[str, Form()]):
     result = classifier(text)
 
     # STEP 5 : post processing
-    # return {"result": result}
+    return {"result": result}
